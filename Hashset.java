@@ -9,18 +9,18 @@ class Hashset
 	{
 		HashSet<student>hs = new HashSet<student>();
 		hs.add(new student("xx", 20));
-        hs.add(new student("yy", 40));
-        hs.add(new student("yy", 40));
-        hs.add(new student("zz", 30));
+        	hs.add(new student("yy", 40));
+        	hs.add(new student("yy", 40));
+        	hs.add(new student("zz", 30));
  
  
-        TreeSet<student>std = new TreeSet<student>(new Myclass());
-        std.addAll(hs);
+        	TreeSet<student>std = new TreeSet<student>(new Myclass());
+        	std.addAll(hs);
  
-        Iterator itr = std.iterator();
-        while(itr.hasNext()){
-        	System.out.println(itr.next()+" ");
-        }
+        	Iterator itr = std.iterator();
+        	while(itr.hasNext()){
+        		System.out.println(itr.next()+" ");
+        	}
 	}
 }
  
